@@ -23,14 +23,14 @@ console.log(id===anotherId);
 
 const cricketers = ["Rohit","Dhoni","Virat"]
 
-let myObj = {
+/*let myObj = {
     name: Anmol,
     age: 22,
 }
 
 const myFunction = function(){
     console.log("Hello world");
-}
+}*/
 
 // All dataypes of Non-primtive are known as functions. For function it known as function object
 
@@ -50,3 +50,27 @@ Return type of variables in JavaScript
        Function  =>  function
        Object  =>  object
 */
+
+// ************** Stack and Heap memory *************
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myName = "Anmol"
+
+let anotherName = myName
+anotherName = "Ankit"
+
+console.log(myName);
+console.log(anotherName);
+
+let userOne ={
+    email: "abc@gmail.com",
+    phone: 9834834334
+}
+
+let userTwo = userOne
+
+userTwo.email = "xyz@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email)
