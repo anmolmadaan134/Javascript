@@ -1,7 +1,7 @@
 const name = "Anmol"
 const roll_no = 24
 
-// console.log(name + " " + roll_no + " is excellent student") // Very old method and bad method to write.
+    // console.log(name + " " + roll_no + " is excellent student") // Very old method and bad method to write.
 
 //console.log(`Hello My name is ${name} and my roll number is ${roll_no}`); 
 
