@@ -49,9 +49,24 @@ const users = [
 
 users[1].email
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser)); // It gets us the data types of the value *important*
-console.log(Object.values(tinderUser));//returns the values.
-console.log(Object.entries(tinderUser)); //It provides the entries
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser)); // It gets us the data types of the value *important*
+// console.log(Object.values(tinderUser));//returns the values.
+// console.log(Object.entries(tinderUser)); //It provides the entries
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+// Destructuring
+const course = {
+    courseName:  "Android Development",
+    price:"499",
+    instructor:"Anmol Madaan"
+
+}
+
+//course.instructor 
+
+const{instructor} = course
+
+console.log(instructor);

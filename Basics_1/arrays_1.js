@@ -8,7 +8,7 @@ const dc = ["superman","flash","batman"]
 // const allHeroes = marvel.concat(dc)
 // console.log(allHeroes);
 
-// const all_new_hero = [...marvel,...dc]
+// const all_new_hero = [...marvel,...dc] // it is used the most.
 // console.log(all_new_hero);
 
 // const another_array = [1,2,3,[4,5,6],7,[6,7,[4,5]]]
