@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript code</h1>
+    <button id="start">Start</button> <!-- Corrected ID -->
+    <button id="stop">Stop</button> <!-- Corrected ID -->
+</body>
+
+<script>
+    const startButton = document.querySelector("#start"); // Corrected selector
+    const stopButton = document.querySelector("#stop"); // Corrected selector
+    
+    startButton.addEventListener('click', function() {
+        const sayDate = function() {
+            console.log("Anmol", Date.now());
+        }
+        const intervalId = setInterval(sayDate, 2000);
+        
+        stopButton.addEventListener('click', function() {
+            clearInterval(intervalId);
+        });
+    });
+</script>
+</html>
